@@ -5,7 +5,7 @@ ThisBuild / semanticdbVersion := scalafixSemanticdb.revision
 
 lazy val root = (project in file("."))
   .settings(
-    name := "sdec-customer-api-tests",
+    name := "sdec-stride-api-tests",
     version := "0.1.0",
     scalaVersion := "3.3.7",
     libraryDependencies ++= Dependencies.test,
